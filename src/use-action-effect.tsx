@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react"
 
-export default function useActionEffect<T extends (...args: any[]) => void>(
+export function useActionEffect<T extends (...args: any[]) => void>(
 	action: T,
 	onInit = false,
 ): T {
