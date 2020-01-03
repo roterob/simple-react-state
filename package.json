@@ -1,9 +1,9 @@
 {
 	"name": "simple-react-state",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Utilities for a simple state managment in react app based in hooks.",
-	"main": "dist/index.js",
-	"types": "dist/index.d.ts",
+	"main": "dist/simple-react-state.js",
+	"types": "dist/simple-react-state.d.ts",
 	"scripts": {
 		"format": "prettier --write '**'",
 		"build": "rm -rf dist && tsc",
